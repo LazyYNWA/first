@@ -1,14 +1,131 @@
-html {
-  background-color: green;
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url('./images/layers.png');
+}
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.header {
+  /* background: darkred; */
+    display: flex;
+    /* padding: 20; */
+}
+.header-wrapper {
+  color: white;
+  display: flex;
+  /* padding: 2,2,2,2; */
+  width: calc(100% - 70px);
+  justify-content: space-between;
+  align-items: center;
+}
+.empty {
+  width: fit-content;
+}
+.nav {
+  /* color: white; */
+  display: block; /*flex;*/
+  /* padding: 2,2,2,2; */
+  font-family: Montserrat;
   font-size: 20px;
+  /* margin: 0 100px; */
+  margin: 0 2 0 300px;
+  /* line-height: 1; */
+  font-weight: 600;
+}
+  /* .nav  */
+  a {
+     color: #ffffff;
+}
+.button-menu {
+  /* width: 30px; */
+  margin: auto 20px;
+}
+header .button-menu img {
+  width: 30px;
+}
+.logo {
+  width: 100%;
+  max-width: 250px;
+  height: 70px;
+  margin: 0 20px;
+  /* background: url(../images/logo.png) no-repeat; */
+  background-size: contain;
+  background-position: center;}
+/* header .container .navigation a {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: 0 10px;
+    line-height: 1;
+    font-weight: 600;
+    color: #ffffff;
+  } */
+h1,h3,right-title,right-h2 {
+  color: #ffffff; 
+}
+main {
+   padding: 20;
+   display: flex;
+}
+main .left-side{
+  /* display: flex; */
+  /* direction: column; */
+  position: relative;
+  background: url(./images/left-oval.png) no-repeat;
+
+}
+main .title
+{font-size: 150;
+}
+.right-side {
+  padding: 50;
+}
+.right-title {
+  font-family: Montserrat;
+  font-size: 35px;
+}
+.right-h2
+ {
+  font-family: Montserrat;
+  font-size: 25px;
+}
+.right-text{
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+}
+img .button{
+  width: 493px;
+  height: 137px;
+  background-color: #ffffff;
+  border-radius: 68.4px;
+}
+.right-button {
+position: absolute;
+padding: 10p;
+width: 80px;
+height: 75px;
+bottom: 0;
+right: 0;
+}
+img .left-oval {
+  height: 30;
+  width: 20;
+  align-items: center;
+}
+ing .button-ring{
+height: 33;
+width:  33;
+
 }
 
-ul {
-  background: red;
-  padding: 10px;
-  border: 1px solid black;
 }
 
-li {
-  margin-left: 20px;
-}
+
+
